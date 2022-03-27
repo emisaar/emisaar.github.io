@@ -774,7 +774,7 @@ section#intro {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /*    min-height: 100vh;*/
+    min-height: 60vh;
     position: relative;
     overflow: hidden;
     padding-top: 30px;
@@ -901,9 +901,10 @@ section#masterplan {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    min-height: 100vh;
+    min-height: 60vh;
     position: relative;
     overflow: hidden;
+    padding-top: 20px;
 }
 
 section#masterplan h1 {
@@ -1028,6 +1029,7 @@ section#principles {
     background-size: cover;
     position: relative;
     overflow: hidden;
+    min-height: 50vh;
 }
 
 /*
@@ -1130,7 +1132,7 @@ section#honest {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-/*    min-height: 100vh;*/
+    min-height: 60vh;
     position: relative;
     overflow: hidden;
     padding-top: 30px;
@@ -1158,6 +1160,7 @@ section#honest .section-wrapper > h1:nth-child(1) {
     text-transform: uppercase;
     width: 170px;
     margin: 0 auto;
+    padding-top: 30px;
 }
 
 section#honest .section-wrapper > h1:nth-child(2) {
@@ -1192,7 +1195,7 @@ section#honest #honestmaterials-slider h1 {
     font-size: 13px;
     margin: 20px auto 0 auto;
     line-height: 1.2;
-    min-height: 60px;
+    min-height: 50px;
 }
 section#honest #honestmaterials-slider h1.slider-act-tot {
     margin: 0px auto 0 auto;
@@ -1221,7 +1224,7 @@ section#amenities {
     background-size: cover;
     position: relative;
     overflow: hidden;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 section#amenities h1 {
@@ -1363,7 +1366,7 @@ section#amenities ul#amul li span.text {
     text-align: left;
     margin-top: -20px;
     padding-left: 20px;
-    font-size: 15px;
+    font-size: 14px;
     color: #6E6055;
     font-weight: 100;
     line-height: 1.3;
@@ -1578,7 +1581,7 @@ section#suiteunits {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    min-height: 100vh;
+    min-height: 50vh;
     position: relative;
     overflow: hidden;
 }
@@ -2943,7 +2946,7 @@ section#contact .contact-wrapper .sending {
     } 
 
     #intro .left-col{
-        flex-basis: 60%;
+        flex-basis: 80%;
     }
 
     #masterplan .left-col{
@@ -2955,7 +2958,7 @@ section#contact .contact-wrapper .sending {
     }
 
     section#principles{
-        min-height: 100vh;
+        min-height: 30vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -2967,6 +2970,10 @@ section#contact .contact-wrapper .sending {
     
     section#principles .principlescontainer h1{
         width: 100%;
+    }
+
+    section#honest{
+        padding-top: 60px;
     }
 
     #honestmaterials-slider-list{
@@ -2984,20 +2991,12 @@ section#contact .contact-wrapper .sending {
         max-width: 100%;
     }
 
-    /* section#amenities.open ul#amul {
-        margin-left: 0px;
-    } */
-
     section#amenities ul#amul li.fadeIn {
         max-width: 70px;
     }
 
     section#amenities ul#amul li.vis {
         max-width: 100px;
-    }
-
-    section#honest {
-        min-height: 50vh;
     }
 }
 
